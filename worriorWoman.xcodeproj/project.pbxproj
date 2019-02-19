@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54C9C799221BA6EA00AA837C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9C798221BA6EA00AA837C /* AppDelegate.swift */; };
+		54C9C79B221BA6EA00AA837C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C9C79A221BA6EA00AA837C /* art.scnassets */; };
+		54C9C79D221BA6EA00AA837C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9C79C221BA6EA00AA837C /* ViewController.swift */; };
+		54C9C7A0221BA6EA00AA837C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C9C79E221BA6EA00AA837C /* Main.storyboard */; };
+		54C9C7A2221BA6EB00AA837C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C9C7A1221BA6EB00AA837C /* Assets.xcassets */; };
+		54C9C7A5221BA6EB00AA837C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C9C7A3221BA6EB00AA837C /* LaunchScreen.storyboard */; };
+		54C9C7B0221BA6EB00AA837C /* worriorWomanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9C7AF221BA6EB00AA837C /* worriorWomanTests.swift */; };
+		54C9C7BB221BA6EB00AA837C /* worriorWomanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C9C7BA221BA6EB00AA837C /* worriorWomanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54C9C7AC221BA6EB00AA837C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C9C78D221BA6EA00AA837C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C9C794221BA6EA00AA837C;
+			remoteInfo = worriorWoman;
+		};
+		54C9C7B7221BA6EB00AA837C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C9C78D221BA6EA00AA837C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C9C794221BA6EA00AA837C;
+			remoteInfo = worriorWoman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54C9C795221BA6EA00AA837C /* worriorWoman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = worriorWoman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C9C798221BA6EA00AA837C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54C9C79A221BA6EA00AA837C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		54C9C79C221BA6EA00AA837C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54C9C79F221BA6EA00AA837C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54C9C7A1221BA6EB00AA837C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54C9C7A4221BA6EB00AA837C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54C9C7A6221BA6EB00AA837C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C9C7AB221BA6EB00AA837C /* worriorWomanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = worriorWomanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C9C7AF221BA6EB00AA837C /* worriorWomanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = worriorWomanTests.swift; sourceTree = "<group>"; };
+		54C9C7B1221BA6EB00AA837C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C9C7B6221BA6EB00AA837C /* worriorWomanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = worriorWomanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C9C7BA221BA6EB00AA837C /* worriorWomanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = worriorWomanUITests.swift; sourceTree = "<group>"; };
+		54C9C7BC221BA6EB00AA837C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54C9C792221BA6EA00AA837C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C9C7A8221BA6EB00AA837C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C9C7B3221BA6EB00AA837C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54C9C78C221BA6EA00AA837C = {
+			isa = PBXGroup;
+			children = (
+				54C9C797221BA6EA00AA837C /* worriorWoman */,
+				54C9C7AE221BA6EB00AA837C /* worriorWomanTests */,
+				54C9C7B9221BA6EB00AA837C /* worriorWomanUITests */,
+				54C9C796221BA6EA00AA837C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54C9C796221BA6EA00AA837C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54C9C795221BA6EA00AA837C /* worriorWoman.app */,
+				54C9C7AB221BA6EB00AA837C /* worriorWomanTests.xctest */,
+				54C9C7B6221BA6EB00AA837C /* worriorWomanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54C9C797221BA6EA00AA837C /* worriorWoman */ = {
+			isa = PBXGroup;
+			children = (
+				54C9C798221BA6EA00AA837C /* AppDelegate.swift */,
+				54C9C79A221BA6EA00AA837C /* art.scnassets */,
+				54C9C79C221BA6EA00AA837C /* ViewController.swift */,
+				54C9C79E221BA6EA00AA837C /* Main.storyboard */,
+				54C9C7A1221BA6EB00AA837C /* Assets.xcassets */,
+				54C9C7A3221BA6EB00AA837C /* LaunchScreen.storyboard */,
+				54C9C7A6221BA6EB00AA837C /* Info.plist */,
+			);
+			path = worriorWoman;
+			sourceTree = "<group>";
+		};
+		54C9C7AE221BA6EB00AA837C /* worriorWomanTests */ = {
+			isa = PBXGroup;
+			children = (
+				54C9C7AF221BA6EB00AA837C /* worriorWomanTests.swift */,
+				54C9C7B1221BA6EB00AA837C /* Info.plist */,
+			);
+			path = worriorWomanTests;
+			sourceTree = "<group>";
+		};
+		54C9C7B9221BA6EB00AA837C /* worriorWomanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54C9C7BA221BA6EB00AA837C /* worriorWomanUITests.swift */,
+				54C9C7BC221BA6EB00AA837C /* Info.plist */,
+			);
+			path = worriorWomanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54C9C794221BA6EA00AA837C /* worriorWoman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C9C7BF221BA6EB00AA837C /* Build configuration list for PBXNativeTarget "worriorWoman" */;
+			buildPhases = (
+				54C9C791221BA6EA00AA837C /* Sources */,
+				54C9C792221BA6EA00AA837C /* Frameworks */,
+				54C9C793221BA6EA00AA837C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = worriorWoman;
+			productName = worriorWoman;
+			productReference = 54C9C795221BA6EA00AA837C /* worriorWoman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54C9C7AA221BA6EB00AA837C /* worriorWomanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C9C7C2221BA6EB00AA837C /* Build configuration list for PBXNativeTarget "worriorWomanTests" */;
+			buildPhases = (
+				54C9C7A7221BA6EB00AA837C /* Sources */,
+				54C9C7A8221BA6EB00AA837C /* Frameworks */,
+				54C9C7A9221BA6EB00AA837C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C9C7AD221BA6EB00AA837C /* PBXTargetDependency */,
+			);
+			name = worriorWomanTests;
+			productName = worriorWomanTests;
+			productReference = 54C9C7AB221BA6EB00AA837C /* worriorWomanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54C9C7B5221BA6EB00AA837C /* worriorWomanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C9C7C5221BA6EB00AA837C /* Build configuration list for PBXNativeTarget "worriorWomanUITests" */;
+			buildPhases = (
+				54C9C7B2221BA6EB00AA837C /* Sources */,
+				54C9C7B3221BA6EB00AA837C /* Frameworks */,
+				54C9C7B4221BA6EB00AA837C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C9C7B8221BA6EB00AA837C /* PBXTargetDependency */,
+			);
+			name = worriorWomanUITests;
+			productName = worriorWomanUITests;
+			productReference = 54C9C7B6221BA6EB00AA837C /* worriorWomanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54C9C78D221BA6EA00AA837C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ousmane Ouedraogo";
+				TargetAttributes = {
+					54C9C794221BA6EA00AA837C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					54C9C7AA221BA6EB00AA837C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 54C9C794221BA6EA00AA837C;
+					};
+					54C9C7B5221BA6EB00AA837C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 54C9C794221BA6EA00AA837C;
+					};
+				};
+			};
+			buildConfigurationList = 54C9C790221BA6EA00AA837C /* Build configuration list for PBXProject "worriorWoman" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54C9C78C221BA6EA00AA837C;
+			productRefGroup = 54C9C796221BA6EA00AA837C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54C9C794221BA6EA00AA837C /* worriorWoman */,
+				54C9C7AA221BA6EB00AA837C /* worriorWomanTests */,
+				54C9C7B5221BA6EB00AA837C /* worriorWomanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54C9C793221BA6EA00AA837C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C9C79B221BA6EA00AA837C /* art.scnassets in Resources */,
+				54C9C7A5221BA6EB00AA837C /* LaunchScreen.storyboard in Resources */,
+				54C9C7A2221BA6EB00AA837C /* Assets.xcassets in Resources */,
+				54C9C7A0221BA6EA00AA837C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C9C7A9221BA6EB00AA837C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C9C7B4221BA6EB00AA837C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54C9C791221BA6EA00AA837C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C9C79D221BA6EA00AA837C /* ViewController.swift in Sources */,
+				54C9C799221BA6EA00AA837C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C9C7A7221BA6EB00AA837C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C9C7B0221BA6EB00AA837C /* worriorWomanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C9C7B2221BA6EB00AA837C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C9C7BB221BA6EB00AA837C /* worriorWomanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54C9C7AD221BA6EB00AA837C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C9C794221BA6EA00AA837C /* worriorWoman */;
+			targetProxy = 54C9C7AC221BA6EB00AA837C /* PBXContainerItemProxy */;
+		};
+		54C9C7B8221BA6EB00AA837C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C9C794221BA6EA00AA837C /* worriorWoman */;
+			targetProxy = 54C9C7B7221BA6EB00AA837C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54C9C79E221BA6EA00AA837C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C9C79F221BA6EA00AA837C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54C9C7A3221BA6EB00AA837C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C9C7A4221BA6EB00AA837C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54C9C7BD221BA6EB00AA837C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54C9C7BE221BA6EB00AA837C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54C9C7C0221BA6EB00AA837C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47U537G273;
+				INFOPLIST_FILE = worriorWoman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.worriorWoman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54C9C7C1221BA6EB00AA837C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47U537G273;
+				INFOPLIST_FILE = worriorWoman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.worriorWoman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54C9C7C3221BA6EB00AA837C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47U537G273;
+				INFOPLIST_FILE = worriorWomanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.worriorWomanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/worriorWoman.app/worriorWoman";
+			};
+			name = Debug;
+		};
+		54C9C7C4221BA6EB00AA837C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47U537G273;
+				INFOPLIST_FILE = worriorWomanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.worriorWomanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/worriorWoman.app/worriorWoman";
+			};
+			name = Release;
+		};
+		54C9C7C6221BA6EB00AA837C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47U537G273;
+				INFOPLIST_FILE = worriorWomanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.worriorWomanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = worriorWoman;
+			};
+			name = Debug;
+		};
+		54C9C7C7221BA6EB00AA837C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47U537G273;
+				INFOPLIST_FILE = worriorWomanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.worriorWomanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = worriorWoman;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54C9C790221BA6EA00AA837C /* Build configuration list for PBXProject "worriorWoman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C9C7BD221BA6EB00AA837C /* Debug */,
+				54C9C7BE221BA6EB00AA837C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C9C7BF221BA6EB00AA837C /* Build configuration list for PBXNativeTarget "worriorWoman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C9C7C0221BA6EB00AA837C /* Debug */,
+				54C9C7C1221BA6EB00AA837C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C9C7C2221BA6EB00AA837C /* Build configuration list for PBXNativeTarget "worriorWomanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C9C7C3221BA6EB00AA837C /* Debug */,
+				54C9C7C4221BA6EB00AA837C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C9C7C5221BA6EB00AA837C /* Build configuration list for PBXNativeTarget "worriorWomanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C9C7C6221BA6EB00AA837C /* Debug */,
+				54C9C7C7221BA6EB00AA837C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54C9C78D221BA6EA00AA837C /* Project object */;
+}
